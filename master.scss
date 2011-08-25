@@ -1,13 +1,13 @@
 // Small
-// @import "media/mobile"
+//@import "media/mobile.css";
 
 // Medium
-// @import "media/tablet" screen and (max-width: 1024px)
+// @import "media/tablet" screen and (max-width: 1024px);
 
 // Wide
-// @import "media/desktop" screen and (min-width: 1025px)
+@import "media/screen.css" screen and (min-width: 1025px);
 
 // Print
-// @import "media/print" print
+// @import "media/print" print;
 
-@import "media/screen.css" screen;
+//@import "media/screen.css" screen;

@@ -5,9 +5,11 @@
 */
 
 @import "compass";
-@import "stitch/patterns";
-//@import "stitch/reset";
+@import "stitch";
 
-@import "screen/*";
+@import "screen/variables";
+@import "screen/functions";
+@import "screen/mixins";
+
 @import "screen/styleguide/*";
 @import "screen/components/*";

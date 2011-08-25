@@ -1,0 +1,11 @@
+/**
+ * Returns the width needed for a column according 
+ * to the grid settings. Reverts to auto for small screens.
+ * @param $n int Number of columns
+*/
+@mixin columns($n) {
+	width: columns-width($n);
+	@media only screen and (max-width: 481px) {
+		width: auto;
+	}
+}

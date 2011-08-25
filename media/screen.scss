@@ -1,0 +1,13 @@
+/*
+	This is the template file for media stylesheets.
+	Copy and paste the template files to create a set
+	of stylesheets for a new media layout.
+*/
+
+@import "compass";
+@import "stitch/patterns";
+//@import "stitch/reset";
+
+@import "screen/*";
+@import "screen/styleguide/*";
+@import "screen/components/*";

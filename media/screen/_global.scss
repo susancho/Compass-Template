@@ -1,0 +1,28 @@
+/*
+  These are global styles with NO SCOPE
+*/
+
+/* Set base type styles */
+body {
+	  font-size: $text-font-size;
+	font-family: $text-font-family;
+	line-height: $text-baseline;
+	      color: $text-color;
+ vertical-align: baseline;
+}
+
+/* Text selection */
+::selection { 
+	background: $text-selection-background;
+	color: $text-selection-color;
+}
+
+/* Add anti-aliasing and better kerning to titles */
+h1,h2,h3,h4,h5,h6 {
+  @include improve-text-rendering; 
+}
+
+/* fluid images and objects */
+img,object,embed,video {
+	max-width:100%;
+}

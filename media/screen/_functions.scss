@@ -1,0 +1,11 @@
+/**
+ * Returns the width of n columns based on the grid variables
+ * specified in _variables.scss 
+ * @param $n int Number of columns
+ * @param $width int Width of the grid
+ * @param $gutter int Width the gutter between the columns
+ * @return int Width of the total column span
+*/
+@function column-width($n, $width: $column-width, $gutter: $gutter-width) {
+	@return $n * $width + (($n - 1) * ($gutter-width * 2));
+}
